@@ -23,7 +23,7 @@ plugins:
   - git-revision-date
   - mkdocs-jupyter:
       include_source: True
-      execute: True
+      execute: False
 
 markdown_extensions:
   - attr_list
@@ -37,11 +37,15 @@ markdown_extensions:
 nav:
   - Home: index.md
   - Chapter 1:
-      - chapter_01/intro.ipynb
-      - chapter_01/basemaps.ipynb
+    - ch01/SOBEK模式介紹.md
+      # - chapter_01/intro.ipynb
+      # - chapter_01/basemaps.ipynb
   - Chapter 2:
-      - chapter_02/colorbar.ipynb
-      - chapter_02/heatmap.ipynb
+    - ch02/模式介面介紹.md
+      # - chapter_02/colorbar.ipynb
+      # - chapter_02/heatmap.ipynb
+  - Chapter 3:
+    - ch03/專案資料夾結構.md
   - Blog: https://blog.gishub.org
   - YouTube Channel: https://www.youtube.com/c/QiushengWu
   - Report Issues: https://github.com/giswqs/mkdocs-template/issues
