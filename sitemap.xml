@@ -6,6 +6,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://giswqs.github.io/mkdocs-template/_index/</loc>
+         <lastmod>2022-03-20</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://giswqs.github.io/mkdocs-template/app01/%E5%BB%BA%E6%A8%A1%E8%B3%87%E6%96%99/</loc>
          <lastmod>2022-03-20</lastmod>
          <changefreq>daily</changefreq>
