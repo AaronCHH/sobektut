@@ -18,7 +18,16 @@ jobs:
           pip install --user -r requirements.txt
       - name: Install dependencies
         run: pip install mkdocs-material mkdocstrings mkdocs-git-revision-date-plugin mkdocs-jupyter mkdocs-pdf-export-plugin ipykernel
-      - name: depoly
-        run: mkdocs gh-deploy --force
-        env:
-          RUN_GITHUB_ACTION: ${{ secrets.RUN_GITHUB_ACTION }}
+      # - name: depoly
+      #   run: mkdocs gh-deploy --force
+      #   env:
+      #     RUN_GITHUB_ACTION: ${{ secrets.RUN_GITHUB_ACTION }}
+      # Build the book
+      - name: Build the book
+        run: mkdocs build
+      # Push the book's HTML to github-pages
+      - name: GitHub Pages action
+        uses: peaceiris/actions-gh-pages@v3.6.1
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./site
