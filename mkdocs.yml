@@ -41,7 +41,9 @@ nav:
       # - chapter_01/intro.ipynb
       # - chapter_01/basemaps.ipynb
   - Chapter 2:
-    - ch02/模式介面介紹.md
+    - ch02/模式介面-案例選單.md
+    - ch02/模式介面-其他選單.md
+    - ch02/模式介面-圖形介面.md
       # - chapter_02/colorbar.ipynb
       # - chapter_02/heatmap.ipynb
   - Chapter 3:
