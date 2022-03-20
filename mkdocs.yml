@@ -1,4 +1,4 @@
-site_name: Mkdocs Template
+site_name: Sobek Tutorial
 
 site_url: https://giswqs.github.io/mkdocs-template
 
@@ -46,6 +46,12 @@ nav:
       # - chapter_02/heatmap.ipynb
   - Chapter 3:
     - ch03/專案資料夾結構.md
-  - Blog: https://blog.gishub.org
-  - YouTube Channel: https://www.youtube.com/c/QiushengWu
-  - Report Issues: https://github.com/giswqs/mkdocs-template/issues
+
+  - Appendix 1:
+    - app01/建模資料.md
+  - SOBEK Suite (Official): https://www.deltares.nl/en/software/sobek/
+  - YouTube Tutorials:
+    - SOBEK 2 Urban: https://www.youtube.com/watch?v=FP0hEmWoKY8
+  # - Blog: https://blog.gishub.org
+  # - YouTube Channel: https://www.youtube.com/c/QiushengWu
+  # - Report Issues: https://github.com/giswqs/mkdocs-template/issues
