@@ -45,9 +45,7 @@ nav:
     - ch02/模式介面-其他選單.md
     - ch02/模式介面-圖形介面.md
       # - chapter_02/colorbar.ipynb
-      # - chapter_02/heatmap.ipynb
-  - Chapter 3:
-    - ch03/專案資料夾結構.md
+      # - chapter_02/heatmap.ipynb  
   - Appendix 1:
     # - app01/建模資料.md
     - app01/建模資料.md
