@@ -41,6 +41,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://giswqs.github.io/mkdocs-template/ch04/%E5%BB%BA%E6%A8%A1%E6%AD%A5%E9%A9%9F/</loc>
+         <lastmod>2022-04-25</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://giswqs.github.io/mkdocs-template/ch05/%E5%BB%BA%E6%A8%A1%E6%AD%A5%E9%A9%9F-%E4%BA%8C%E7%B6%AD%E6%BC%AB%E5%9C%B0%E6%B5%81/</loc>
          <lastmod>2022-04-25</lastmod>
          <changefreq>daily</changefreq>
